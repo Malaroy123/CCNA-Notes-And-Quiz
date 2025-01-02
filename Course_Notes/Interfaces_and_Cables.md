@@ -199,3 +199,7 @@ Fiber-Optic:
 - No vulnerability to EMI.
 - SFP ports are more expensive than RJ45 ports (single-mode is more expensive than multimode).
 - Does not emit any signal outside of the cable (no security risk).
+
+Quiz 1
+
+- Connecting two old routers together with UTP cable use crossover cable or enable Auto MDI-X mode.
