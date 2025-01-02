@@ -206,18 +206,18 @@ Quiz 1
 
 Quiz 2
 A company wants to connect switches in two separate buildings that are about 150 meters apart. They want to keep cost down, if possible. What ind of cable should they use. 
-- Although UTP would keep the costs down, it does not support distances over 100 meters ❌ 
-- Although Single-mode fiber supports distances much longer than 150 meters, it is more expensive than multimode fiber ❌
-- Multimode fiber supports distances over 150 meters and is less expensive than single-mode fiber ✅
+- ❌ Although UTP would keep the costs down, it does not support distances over 100 meters.
+- ❌ Although Single-mode fiber supports distances much longer than 150 meters, it is more expensive than multimode fiber.
+- ✅ Multimode fiber supports distances over 150 meters and is less expensive than single-mode fiber.
 
 Quiz 3
 Your company wants to connect two offices that are about 3 kilometres apart. They want to keep costs down if possible. Which kind of cable should they use?
-- Although UTP keeps costs down, it does not support distances of 3 kilometres ❌
-- Many single-mode fiber standards support cable lengths much longer than 3 kilometres. Although single-mode is more expensive than the other options, it is necessary in this case ✅
-- Although multi-mode is cheaper than single-mode fiber, it does not support distances of 3 kilometres ❌
+- ❌ Although UTP keeps costs down, it does not support distances of 3 kilometres 
+- ✅ Many single-mode fiber standards support cable lengths much longer than 3 kilometres. Although single-mode is more expensive than the other options, it is necessary in this case.
+- ❌ Although multi-mode is cheaper than single-mode fiber, it does not support distances of 3 kilometres.
 
 Quiz 4
-Ans A ✅
+- Ans A ✅
 - The ports are Auto-MDI-X enabled. Even if they didn't have Auto MDI-X, they would not operate at a reduced speed. They simply wouldn't operate. 
 - They will operate normally and communicate with straight-through or cross-over cables because it is Auto MDI-X enabled.
 ![image](../image/quiz5.png)
