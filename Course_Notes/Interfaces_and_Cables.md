@@ -220,7 +220,7 @@ Quiz 4
 Ans A ✅
 - The ports are Auto-MDI-X enabled. Even if they didn't have Auto MDI-X, they would not operate at a reduced speed. They simply wouldn't operate. 
 - They will operate normally and communicate with straight-through or cross-over cables because it is Auto MDI-X enabled.
-![image](image/quiz5.png)
+![image](../image/quiz5.png)
 
 Quiz 5
 Your company needs to connect many end hosts to a switch which is in a wiring cabinet on the same office floor as the hosts. What kind of cable should they use?
