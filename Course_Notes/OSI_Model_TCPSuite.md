@@ -208,5 +208,4 @@ Which layer of the OSI model provides host-to-host communications?
 - ❌ B. Network - The network layer does not provide end-to-end, host-to-host communications. 
 - ✅ C. Transport - Transport layer provides host-to-host communications as shown in the diagram below.
 - ❌ D. Data Link - The network layer does not provide end-to-end, host-to-host communications.
-![image](../image/image/transportLayerQuiz5.png)
-
+![image](../image/transportLayerQuiz5.png)
