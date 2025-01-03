@@ -82,6 +82,7 @@ This is called a SEGMENT.
 - Provides logical addressing (IP Addresses).
 - Provides path selection between source and destination
 - **ROUTERS** operate at Layer 3.
+- IP address is included in layer 3 header (PACKET)
 
 When Data and the Layer 4 Header arrive in the Network Layer, it receives a Layer 3 Header.
 
@@ -101,7 +102,7 @@ This is called a **PACKET**.
 
 When the Layer 3 Packet arrives, a Layer 2 Trailer and Header are added.
 
-<< L2 Trailer + DATA + L4 Header + L3 Header + L2 Header >>
+<< L2 Trailer + DATA + L4 Header + L3 Header + L2 Header >> This combination is called a FRAME
 
 This is called a FRAME.
 
