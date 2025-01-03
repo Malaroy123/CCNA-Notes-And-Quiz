@@ -192,6 +192,11 @@ In this instance, disabling “service password-encryption”:
 - future passwords will NOT be encrypted
 - the “enable secret” will not be effected
 
+If you enable "service password-encryption":
+- current passwords will be encrypted
+- future passwords will be encrypted
+- the "enable secret" will not be effected
+
 ---
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/e16966a3-674a-4376-bdab-2c06e3659e5f)
@@ -203,3 +208,35 @@ In this instance, disabling “service password-encryption”:
 ![image](https://github.com/psaumur/CCNA/assets/106411237/e7771e65-5ed5-406d-9751-76520713210c)
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/5f7357d4-f44b-4a61-a24c-86f3368f30f7)
+
+
+
+Quiz 1
+What kind of cable is used to connect a Cisco device via the RJ45 console port?
+- ✅ A. Rollover cable - A rollover cable is used to connect to the RJ45 console port on a Cisco device.
+- ❌ B. Crossover cable - A crossover cable is used to connect two devices (switch-switch, router-router, router-PC, etc.) via Ethernet. It is not used to connect to a Cisco device via the RJ45 console port.
+- ❌ C. USB cable - Although USB cables can be used to connect to the console of a Cisco device, the USB console port is separate from the RJ45 console port.
+
+Quiz 2
+You type enable to enter privileged exec mode on your Cisco router, however the password you enter is not accepted. What could be the problem?
+- ❌ A. service password-encryption is enabled - service password is irrelevant. It doesn't change the password itself, only how it is displayed in the configuration.
+- ❌ B. service password-encryption is disabled - service password is irrelevant. It doesn't change the password itself, only how it is displayed in the configuration.
+- ✅ C. Caps lock is on - passwords are case-sensitive, so if caps lock is on it could cause you yo enter an incorrect password even if you think you're entering it correctly.
+
+Quiz 3
+What is the most secure method to protect access to privileged EXEC mode?
+- ✅ A. The "enable secret command" - the enable secret command configures a password that is automatically encrypted. It uses MD5, a more secure form of encryption than the service password-encryption command.
+- ❌ B. The "enable password command" - the enable password command configures a plain-text password, which is not secure as it can be easily read
+- ❌ C. The "enable password" command, with "service password-encryption" - using service password-encryption encrypts the password to make it more secure, but it is a weak form of encryption.
+
+Quiz 4
+If both the enable password and the enable secret command are configured, what will happen when you use enable to enter privileged EXEC mode.
+- ❌ A. You must enter the enable password, followed by the enable secret.
+- ❌ B. You must enter the enable password only.
+- ✅ C. You must enter the enable secret only - enable secret always takes precedence over the enable password, and you will never be asked to enter both.
+
+Quiz 5
+You enter the conf t command to enter global configuration mode. What is the full-length version of the command?
+- ❌ A. configuration time
+- ✅ B. configure terminal
+- ❌ C. configuration terminal
